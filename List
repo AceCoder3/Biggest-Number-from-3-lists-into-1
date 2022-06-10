@@ -1,0 +1,26 @@
+a=[]
+b=[]
+c=[]
+print("Enter the Elements")
+for e in range(1,5):
+  a.append(int(input()))
+print("Enter the Elements")
+for i in range(1,5):
+  b.append(int(input()))
+print("Enter the Elements")
+for i in range(1,5):
+  c.append(int(input()))
+ a
+ b
+ c
+ d=list(zip(a,b,c))
+ d
+e=[]
+for i in d:
+  if i[0]>i[1] and i[0]>i[2]:
+    e.append(i[0])
+  if i[1]>i[0] and i[1]>i[2]:
+    e.append(i[1])
+  if i[2]>i[0] and i[2]>i[1]:
+    e.append(i[2])
+
